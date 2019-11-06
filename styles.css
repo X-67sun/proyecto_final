@@ -1,0 +1,209 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+  .menu-header{
+    box-sizing: border-box;
+    background: rgb(201, 124, 24);
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    text-align: right;
+    font-family: "fira sans condensed";
+    text-align: center;
+  }
+  
+  .menu-header li{
+display:inline-block;
+text-transform: inherit;
+position:relative;
+left: 300px;
+top:15px;
+  }
+
+  .menu-header li a{
+    color: white;
+  }
+
+  .mobile-menu a{
+    color: yellow;
+    text-decoration: none;
+  }
+
+  .mobile-menu ul{
+    position: absolute;
+    right: -50%;
+    top: 50px;
+    height:100vh;
+    background: yellow;
+    list-style-type: none;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+  }
+  .mobile-menu ul li a{
+    color: white;
+  }
+  .mobile-menu ul li a:hover{
+    border-bottom: 2px solid white;
+  }
+  
+  .menu-cabecera{
+    display: none;
+  }
+
+  .menu-cabecera ul{
+  display: flex;
+  list-style-type: none;
+  justify-content: flex-end;
+}
+
+  .menu-cabecera ul li{
+    margin: 0 10px;
+    display: inline;
+  }
+  
+  .menu-cabecera ul li a{
+    color: rgb(201, 124, 24);
+    text-decoration: none;
+  }
+  
+  .menu-cabecera ul li a:hover{
+    border-bottom: yellow 3px solid;
+  }
+  
+  @media screen and (min-width: 768px){
+    .menu-cabecera{
+      display: none;
+    }
+    .menu-cabecera{
+      display: block;
+    }
+  }
+
+  .fixed-background{
+    display: block;
+    background: url('https://placeimg.com/640/480/any') center fixed;
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+  }
+
+h1{font-size: 60px;
+    font-family: "fira sans condensed";
+    text-align: center;
+
+}
+
+h2{font-size: 40px;
+    font-family: "fira sans condensed";
+    text-align: center;
+}
+
+h3{font-size: 30px;
+  font-family: "fira sans condensed";
+  text-align: center;
+}
+
+p{font-size: 18px;
+    font-family: "fira sans condensed";
+    text-align: center;
+    line-height: 200%;
+
+}
+
+.cabecera{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 70px;
+  padding: 0 1em;
+}
+
+.a otra pagina {
+  background: rgb(201, 124, 24);
+  margin:80px;
+  width:80px;
+  text-align: center;
+  padding: 10px;
+}
+
+#titulo_principal{
+  display: table-cell;
+  vertical-align: middle;
+  align-content: center;}
+
+
+#inicio {
+  max-width: 600px;
+  margin: 100px auto;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify content: space-around;
+  
+  background: img("imagenes/cow-4029953_1920.jpg") center / cover;
+  background-size: cover;
+
+  text-align: center;
+  h1, p{
+    color: #FFF;
+    padding: 10px;}
+
+  img{
+    width:100%;}
+  }
+
+figure{
+  margin: 0;
+  display: inline-block;
+  border: 10px;
+  position: relative;
+}
+
+figcaption{
+  display: none;
+  position: absolute;
+  padding: 3%;
+  left:0;
+  right:0;
+  font-family: "fira sans condensed";
+
+}
+
+figure: hover figcaption{
+display:block;
+}
+}
+
+
+.center-background{
+  display: block;
+  background: url('imagenes/relieve.jpg') center;
+  background-size: cover;
+  width: 100%;
+  height: 50vh;
+}
+.fixed-background{
+  display: block;
+  background: url('imagenes/relieve.jpg') center fixed;
+  background-size: cover;
+  width: 100%;
+  height: 50vh;
+}
+
+.artistas{
+  align-items: center;
+  
+}
